@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: #EEEEEE;
+    width: 385px;
+    height: 575px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.score-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #080001;
+    height: 120px;
+    width: 155px;
+}
+
+.title {
+    text-align: center;
+}
+
+#home-number {
+    text-align: center;
+    width: 100%;
+    color: #F94F6D;
+    font-size: 90px;
+    height: 120px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#guest-number {
+    text-align: center;
+    width: 100%;
+    color: #F94F6D;
+    font-size: 90px;
+    height: 120px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    outline-color: white;
+    background-color: #1B244A;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    outline-width: 4px;
+    margin-top: 20px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button-center {
+    display: flex;
+    justify-content: center;
+}
+
+.new-game-button {
+    margin-top: 20px;
+}
+
+.highlight {
+    background-color: yellow;
+background-size: 500px;
+ }

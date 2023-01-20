@@ -1,0 +1,46 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link rel="stylesheet" href="index.css">
+	<link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="container">
+		<div>
+			<h3 id="home-score" class="title">HOME</h3>
+			<div class="score-background">
+				<div id="home-number">0</div>
+			</div>
+			<div class="button-container">
+				<button onclick="homeOne()">+1</button>
+				<button onclick="homeTwo()">+2</button>
+				<button onclick="homeThree()">+3</button>
+			</div>
+		</div>
+
+		<div>
+			<h3 id="guest-score" class="title">GUEST</h3>
+			<div class="score-background">
+				<div id="guest-number">0</div>
+			</div>
+			<div class="button-container">
+				<button onclick="guestOne()">+1</button>
+				<button onclick="guestTwo()">+2</button>
+				<button onclick="guestThree()">+3</button>
+			</div>
+			
+		</div>
+	</div>
+		<div class="button-center">
+			<button onclick="newGame()" class="new-game-button">New Game</button>
+		</div>
+
+
+
+		<script src="index.js"></script>
+</body>
+
+</html>
